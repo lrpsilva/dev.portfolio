@@ -1,0 +1,208 @@
+@media (max-width: 1200px) {
+  #sobre {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-content {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2em;
+  }
+
+  #sobre .text h2,
+  #sobre .techs h2 {
+    text-align: center;
+  }
+
+  #sobre .text p {
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .cards-container {
+    justify-content: center;
+  }
+
+  #sobre figure {
+    width: 100%;
+  }
+
+  #sobre figure img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .formacao-container {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-container {
+    grid-template-columns: 1fr;
+  }
+
+  .section h2 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 3%;
+  }
+
+  .section {
+    padding: 4% 3%;
+  }
+
+  .section h2 {
+    font-size: 1.8em;
+    margin-bottom: 1.5em;
+  }
+
+  #sobre .text p {
+    font-size: 0.95em;
+  }
+
+  .card {
+    width: 100px;
+    height: 100px;
+  }
+
+  .card-formacao {
+    padding: 1.5em;
+  }
+
+  .portfolio-item {
+    padding: 1.5em;
+  }
+
+  .contact-form {
+    gap: 1em;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 0.7em;
+    font-size: 16px;
+  }
+
+  .btn-submit {
+    padding: 0.8em 1.5em;
+    font-size: 0.9em;
+  }
+
+  .modal-content {
+    padding: 1.5em;
+  }
+
+  .modal-content h3 {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 3% 3%;
+  }
+
+  .section h2 {
+    font-size: 1.5em;
+    margin-bottom: 1.2em;
+  }
+
+  #sobre {
+    padding: 3%;
+  }
+
+  #sobre .text p {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+
+  #sobre figure img {
+    width: 200px;
+    height: 200px;
+  }
+
+  #sobre figure figcaption {
+    font-size: 1em;
+  }
+
+  .cards-container {
+    gap: 1em;
+  }
+
+  .card {
+    width: 80px;
+    height: 80px;
+  }
+
+  #formacao .section h2 {
+    text-align: center;
+  }
+
+  .card-formacao h3 {
+    font-size: 1.2em;
+  }
+
+  .card-formacao strong {
+    font-size: 1em;
+  }
+
+  .card-formacao p,
+  .card-formacao small {
+    font-size: 0.9em;
+  }
+
+  .portfolio-item h3 {
+    font-size: 1.1em;
+  }
+
+  .portfolio-item p {
+    font-size: 0.9em;
+  }
+
+  .tech-tag {
+    font-size: 0.8em;
+  }
+
+  .portfolio-link {
+    font-size: 0.9em;
+    padding: 0.6em 1em;
+  }
+
+  #contato {
+    padding: 3%;
+  }
+
+  .contact-intro {
+    font-size: 1em;
+  }
+
+  .form-group label {
+    font-size: 0.95em;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 0.6em;
+  }
+
+  .btn-submit {
+    padding: 0.7em 1.2em;
+    font-size: 0.85em;
+  }
+
+  .modal-content {
+    width: 95%;
+    padding: 1.2em;
+  }
+
+  .close {
+    right: 0.8em;
+    top: 0.5em;
+    font-size: 1.8em;
+  }
+}

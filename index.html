@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Lucas Roger</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/d6b178bb90.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="logo">Lucas Roger</h1>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="nav-menu" id="navMenu">
+            <a href="#sobre">Sobre mim</a>
+            <a href="#formacao">Formação</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+            <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+        <nav class="social-links">
+            <a href="https://github.com/lrpsilva" target="_blank" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/lucasrogerps/" target="_blank" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/rps_lucas/" target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SEÇÃO SOBRE MIM -->
+        <section id="sobre" class="section">
+            <div class="section-content">
+                <article class="text">
+                    <h2>🙋‍♂️ Sobre mim</h2>
+                    <p>
+                        Olá, me chamo Lucas Roger, tenho 31 anos, fiz transição de carreira para área de tecnologia onde atuo como desenvolvedor à 3 anos.
+                        Sou de Recife-PE, mas atualmente moro em Ribeirão Preto-SP.
+                    </p>
+                    <p style="margin-top: 1.5em; font-size: 1.1em;">
+                        <strong>Hobbys:</strong> Pratico futevôlei e musculação, gosto de assistir séries, animes e jogar nas horas vagas.
+                    </p>
+                </article>
+
+                <aside class="techs">
+                    <h2>🧑‍💻 Tecnologias</h2>
+                    <div class="cards-container">
+                        <div class="card">
+                            <img src="./img/techs/logo-html-5.png" alt="Logo do HTML5">
+                        </div>
+                        <div class="card">
+                            <img src="./img/techs/logo-css-3.png" alt="Logo do CSS3">
+                        </div>
+                        <div class="card">
+                            <img src="./img/techs/javascript.png" alt="Logo do JavaScript">
+                        </div>
+                        <div class="card">
+                            <img src="./img/techs/logo-react.png" alt="Logo do React">
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            <figure>
+                <img src="./img/me2.jpeg" alt="Imagem de Lucas Roger">
+                <figcaption>Lucas Roger</figcaption>
+            </figure>
+        </section>
+
+        <!-- SEÇÃO FORMAÇÃO -->
+        <section id="formacao" class="section">
+            <h2>📚 Formação</h2>
+            <div class="formacao-container">
+                <div class="card-formacao">
+                    <h3>Educação</h3>
+                    <ul>
+                        <li>
+                            <strong>Graduação em Análise e Desenvolvimento de Sistemas</strong>
+                            <p>Formação superior em desenvolvimento de software</p>
+                            <small>2023 - Atualmente</small>
+                        </li>
+                        <li>
+                            <strong>Graduação em Arquitetura & Urbanismo</strong>
+                            <p>Faculdade de Ciências Humanas de Recife - ESUDA</p>
+                            <small>2017 - 2022</small>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="card-formacao">
+                    <h3>Idiomas</h3>
+                    <ul>
+                        <li>
+                            <strong>Português</strong>
+                            <p>Nativo</p>
+                        </li>
+                        <li>
+                            <strong>Inglês</strong>
+                            <p>Intermediário - B1</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card-formacao">
+                    <h3>Cursos e Certificados</h3>
+                    <ul>
+                        <li>
+                            <strong>Curso NExT - Desenvolvimento de Software</strong>
+                            <p>CESAR School</p>
+                        </li>
+                        <li>
+                            <strong>GFT Start #5 Java Bootcamp</strong>
+                            <p>Plataforma Dio</p>
+                        </li>
+                        <li>
+                            <strong>Scrum Foundation Professional</strong>
+                            <p>Plataforma Cerfiprof</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO PORTFÓLIO -->
+        <section id="portfolio" class="section">
+            <h2>💼 Portfólio</h2>
+            <div class="portfolio-container">
+                <div class="portfolio-item">
+                    <h3>Projeto 1: vemprojogo</h3>
+                    <p>Aplicação para marcação e controle de day uses para futevôlei</p>
+                    <div class="portfolio-technologies">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <a href="https://github.com/lrpsilva" target="_blank" class="portfolio-link">
+                        Ver repositório <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3>Projeto 2: Converter</h3>
+                    <p>Aplicação para conversão de moedas</p>
+                    <div class="portfolio-technologies">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                    <a href="https://github.com/lrpsilva" target="_blank" class="portfolio-link">
+                        Ver repositório <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3>Projeto 3: Port-uninter</h3>
+                    <p>Portfólio profissional</p>
+                    <div class="portfolio-technologies">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Javascript</span>
+                    </div>
+                    <a href="https://github.com/lrpsilva" target="_blank" class="portfolio-link">
+                        Ver repositório <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO CONTATO -->
+        <section id="contato" class="section">
+            <h2>📧 Contato</h2>
+            <p class="contact-intro">Gostaria de trabalhar comigo? Deixe uma mensagem!</p>
+            
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome *</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                    <span class="error-message" id="erroNome"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail *</label>
+                    <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required>
+                    <span class="error-message" id="erroEmail"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem *</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem aqui..." required></textarea>
+                    <span class="error-message" id="erroMensagem"></span>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+
+            <!-- Modal de confirmação -->
+            <div id="successModal" class="modal" style="display: none;">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>✅ Sucesso!</h3>
+                    <p>Sua mensagem foi enviada com sucesso!</p>
+                    <p>Obrigado por entrar em contato. Responderei em breve.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span>
+            &copy; Lucas Roger Pinto da Silva, 2025 - Todos os direitos reservados.
+        </span>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
